@@ -15,8 +15,8 @@ const Footer: React.FC = () => {
               <span className="text-xl font-bold">СемейноеПраво</span>
             </div>
             <p className="text-gray-300 leading-relaxed">
-              Профессиональная юридическая помощь по семейным делам. 
-              Защищаем ваши интересы с 2009 года.
+              Семейный юрист в Туапсе и Туапсинском районе. 
+              Защищаем интересы семей с 2009 года.
             </p>
             <div className="flex space-x-4">
               {['Telegram', 'WhatsApp', 'Viber'].map((platform) => (
@@ -52,19 +52,19 @@ const Footer: React.FC = () => {
             <div className="space-y-4">
               <div className="flex items-center space-x-3">
                 <Phone className="h-5 w-5 text-amber-400" />
-                <span>+7 (495) 123-45-67</span>
+                <span>+7 (86167) 2-34-56</span>
               </div>
               <div className="flex items-center space-x-3">
                 <Mail className="h-5 w-5 text-amber-400" />
-                <span>info@familylaw.ru</span>
+                <span>info@familylaw-tuapse.ru</span>
               </div>
               <div className="flex items-start space-x-3">
                 <MapPin className="h-5 w-5 text-amber-400 mt-1" />
-                <span>ул. Тверская, 15<br />Москва, 125009</span>
+                <span>ул. Горького, 12<br />Туапсе, 352800</span>
               </div>
               <div className="flex items-start space-x-3">
                 <Clock className="h-5 w-5 text-amber-400 mt-1" />
-                <span>Пн-Пт: 9:00-20:00<br />Сб-Вс: 10:00-18:00</span>
+                <span>Пн-Пт: 9:00-18:00<br />Сб: 10:00-16:00</span>
               </div>
             </div>
           </div>
@@ -87,15 +87,15 @@ const Footer: React.FC = () => {
               </li>
             </ul>
             <div className="text-xs text-gray-400">
-              <p>Лицензия № 77/001234</p>
-              <p>Адвокатская палата г. Москвы</p>
+              <p>Лицензия № 23/001234</p>
+              <p>Адвокатская палата Краснодарского края</p>
             </div>
           </div>
         </div>
 
         <div className="border-t border-gray-700 mt-12 pt-8 text-center">
           <p className="text-gray-400">
-            © {currentYear} СемейноеПраво. Все права защищены.
+            © {currentYear} СемейноеПраво Туапсе. Все права защищены.
           </p>
         </div>
       </div>

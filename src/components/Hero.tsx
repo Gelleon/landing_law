@@ -29,20 +29,19 @@ const Hero: React.FC = () => {
           <div className="text-center lg:text-left space-y-8 animate-fade-in-up">
             <div className="space-y-6">
               <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-white leading-tight">
-                Защитим ваши
+                Семейный юрист в
                 <span className="relative inline-block ml-4">
                   <span className="text-transparent bg-clip-text bg-gradient-to-r from-amber-400 to-amber-600">
-                    семейные
+                    Туапсе
                   </span>
                   <div className="absolute -bottom-2 left-0 right-0 h-1 bg-gradient-to-r from-amber-400 to-amber-600 transform scale-x-0 animate-scale-x"></div>
                 </span>
-                <br />
-                интересы
+                <br />и районе
               </h1>
               
               <p className="text-xl text-blue-100 max-w-2xl">
-                Профессиональная юридическая помощь в решении семейных споров. 
-                Более 15 лет опыта, индивидуальный подход, конфиденциальность гарантирована.
+                Профессиональная юридическая помощь по семейным делам в Туапсе и Туапсинском районе. 
+                Развод, алименты, раздел имущества. Более 15 лет опыта работы в регионе.
               </p>
             </div>
 

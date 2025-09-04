@@ -41,7 +41,7 @@ const Header: React.FC = () => {
             <span className={`text-xl font-bold transition-colors duration-300 ${
               isScrolled ? 'text-gray-900' : 'text-white'
             }`}>
-              СемейноеПраво
+              СемейноеПраво Туапсе
             </span>
           </div>
 
@@ -68,7 +68,7 @@ const Header: React.FC = () => {
           <div className="hidden lg:flex items-center space-x-2">
             <Phone className={`h-5 w-5 ${isScrolled ? 'text-blue-800' : 'text-white'}`} />
             <span className={`font-semibold ${isScrolled ? 'text-gray-900' : 'text-white'}`}>
-              +7 (495) 123-45-67
+              +7 (86167) 2-34-56
             </span>
           </div>
 
@@ -103,7 +103,7 @@ const Header: React.FC = () => {
             <div className="px-4 py-2 border-t border-gray-200">
               <div className="flex items-center space-x-2 text-blue-800">
                 <Phone className="h-5 w-5" />
-                <span className="font-semibold">+7 (495) 123-45-67</span>
+                <span className="font-semibold">+7 (86167) 2-34-56</span>
               </div>
             </div>
           </div>

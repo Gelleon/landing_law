@@ -73,8 +73,8 @@ const Advantages: React.FC = () => {
             Почему выбирают нас
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            Наша команда специализируется на семейном праве и гарантирует 
-            профессиональную защиту ваших интересов
+            Наша команда в Туапсе специализируется на семейном праве и гарантирует 
+            профессиональную защиту интересов жителей Туапсинского района
           </p>
         </div>
 
@@ -120,10 +120,10 @@ const Advantages: React.FC = () => {
             
             <div className="relative z-10">
               <h3 className="text-3xl font-bold mb-4">
-                Нужна юридическая помощь?
+                Нужна юридическая помощь в Туапсе?
               </h3>
               <p className="text-xl text-blue-100 mb-8 max-w-2xl mx-auto">
-                Получите бесплатную консультацию от наших экспертов по семейному праву
+                Получите бесплатную консультацию от экспертов по семейному праву в Туапсе
               </p>
               <button className="bg-amber-500 hover:bg-amber-600 text-white px-8 py-4 rounded-xl font-semibold text-lg transform hover:scale-105 transition-all duration-300 shadow-lg hover:shadow-xl">
                 Записаться на консультацию

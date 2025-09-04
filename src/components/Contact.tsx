@@ -52,26 +52,26 @@ const Contact: React.FC = () => {
                   {
                     icon: Phone,
                     title: 'Телефон',
-                    content: '+7 (495) 123-45-67',
+                    content: '+7 (86167) 2-34-56',
                     subtitle: 'Круглосуточно'
                   },
                   {
                     icon: Mail,
                     title: 'Email',
-                    content: 'info@familylaw.ru',
+                    content: 'info@familylaw-tuapse.ru',
                     subtitle: 'Ответим в течение часа'
                   },
                   {
                     icon: MapPin,
                     title: 'Адрес',
-                    content: 'ул. Тверская, 15, Москва',
-                    subtitle: 'Центр города'
+                    content: 'ул. Горького, 12, Туапсе',
+                    subtitle: 'Центр Туапсе'
                   },
                   {
                     icon: Clock,
                     title: 'Время работы',
-                    content: 'Пн-Пт: 9:00-20:00',
-                    subtitle: 'Сб-Вс: 10:00-18:00'
+                    content: 'Пн-Пт: 9:00-18:00',
+                    subtitle: 'Сб: 10:00-16:00'
                   }
                 ].map((contact, index) => (
                   <div key={index} className="flex items-start space-x-4 group">
@@ -86,7 +86,7 @@ const Contact: React.FC = () => {
                       <p className="text-gray-500 text-sm">{contact.subtitle}</p>
                     </div>
                   </div>
-                ))}
+                Получите профессиональную консультацию по семейному праву в Туапсе
               </div>
             </div>
 
