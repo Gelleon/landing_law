@@ -9,6 +9,13 @@ const Hero: React.FC = () => {
     }
   };
 
+  const scrollToServices = () => {
+    const element = document.getElementById('services');
+    if (element) {
+      element.scrollIntoView({ behavior: 'smooth' });
+    }
+  };
+
   return (
     <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
       {/* Background with gradient and 3D elements */}
@@ -76,7 +83,10 @@ const Hero: React.FC = () => {
                 <div className="absolute inset-0 bg-gradient-to-r from-amber-600 to-amber-700 transform scale-x-0 group-hover:scale-x-100 transition-transform duration-300 origin-left"></div>
               </button>
               
-              <button className="group border-2 border-white text-white px-8 py-4 rounded-xl font-semibold text-lg hover:bg-white hover:text-blue-900 transition-all duration-300 transform hover:scale-105">
+              <button
+                onClick={scrollToServices}
+                className="group relative border-2 border-white text-white px-8 py-4 rounded-xl font-semibold text-lg hover:bg-white hover:text-blue-900 transition-all duration-300 transform hover:scale-105"
+              >
                 Наши услуги
                 <div className="absolute inset-0 bg-white/10 transform scale-x-0 group-hover:scale-x-100 transition-transform duration-300 origin-left rounded-xl"></div>
               </button>
