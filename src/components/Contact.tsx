@@ -86,7 +86,10 @@ const Contact: React.FC = () => {
                       <p className="text-gray-500 text-sm">{contact.subtitle}</p>
                     </div>
                   </div>
-                Получите профессиональную консультацию по семейному праву в Туапсе
+                ))}
+                <p className="text-gray-600 mt-6">
+                  Получите профессиональную консультацию по семейному праву в Туапсе
+                </p>
               </div>
             </div>
 
